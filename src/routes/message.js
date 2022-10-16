@@ -1,5 +1,5 @@
 const router = require('express').Router();
-const messageModel = require('../models/messageModel')
+const messageModel = require('../Models/messageModel')
 const fast2sms = require('fast-two-sms')
 
 var options = {
